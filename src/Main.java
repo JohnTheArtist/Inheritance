@@ -1,3 +1,6 @@
+//https://github.com/JohnTheArtist/Inheritance.git
+
+
 public class Main {
 
 
@@ -22,6 +25,16 @@ public class Main {
         s1.age = 21;
         s1.gpa = 4.00;
         System.out.println(s1.gpa);
+
+        Instructor i1 = new Instructor(32, "3C", 42, "Nicole Sherman", 132, 142, "Blonde");
+
+        System.out.println(i1.student_num);
+        System.out.println(i1.classname);
+        System.out.println(i1.age);
+        System.out.println(i1.name);
+        System.out.println(i1.height);
+        System.out.println(i1.weight);
+        System.out.println(i1.color);
 
     }
 
